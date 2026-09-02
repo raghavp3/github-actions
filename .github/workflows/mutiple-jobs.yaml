@@ -1,4 +1,4 @@
-name: MFW MJ
+name: MFWMJ
 on:
   workflow_dispatch:
 jobs:
