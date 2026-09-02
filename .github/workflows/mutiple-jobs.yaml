@@ -1,0 +1,24 @@
+name: MFW MJ
+on:
+   workflow_dispatch
+jobs:
+  myfirstjob: #id
+  name: my first job
+  runs_on: ubuntu:latest
+  steps:
+  - name: Step1 - Say Hello
+    run: |
+      sleep 10
+      echo "*********WELCOME***********"
+  - name: step2 - what's the today?
+    run: date
+  - name: step3 - what is current working directory
+    run: pwd
+  mysecondjob:
+    name: my second job
+    runs_on: ubuntu:latest
+    steps:
+    - name: Step1 - say hello again
+      run: |
+        sleep 5
+        echo "********hello from second job*************"
