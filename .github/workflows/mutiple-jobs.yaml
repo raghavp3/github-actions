@@ -2,8 +2,8 @@ name: MFW MJ
 on:
    workflow_dispatch
 jobs:
-  myfirstjob: #id
-  name: my first job
+  MFW MJ: #id
+  name: MFW MJ
   runs_on: ubuntu:latest
   steps:
   - name: Step1 - Say Hello
